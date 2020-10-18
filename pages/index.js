@@ -34,15 +34,17 @@ export default function Home() {
         ></script>
       </Head>
       <Navbar />
-      <div className='container'>
-        <div className='row'>
-          <div className='col-lg-3'>
-            <SideMenue />
-          </div>
-          <div className='col-lg-9'>
-            <Carousel />
-            <div className='row'>
-              <MovieList />
+      <div style={{ padding: '70px 0px 0px 0px' }}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-3'>
+              <SideMenue />
+            </div>
+            <div className='col-lg-9'>
+              <Carousel />
+              <div className='row'>
+                <MovieList />
+              </div>
             </div>
           </div>
         </div>
