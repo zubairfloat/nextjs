@@ -5,6 +5,7 @@ import SideMenue from '../Components/sideMenu';
 import Carousel from '../Components/carousel';
 import MovieList from '../Components/movieList';
 import Footer from '../Components/footer';
+import MOVIE_DATA from '../resources/data';
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
             <div className='col-lg-9'>
               <Carousel />
               <div className='row'>
-                <MovieList />
+                <MovieList movie={MOVIE_DATA} />
               </div>
             </div>
           </div>
